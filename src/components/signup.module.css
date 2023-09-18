@@ -1,0 +1,83 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: content-box;
+  /* width:100%; */
+  }
+.card {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 10px;
+    
+  
+  }
+  
+  .cardheader {
+    background-color: #333;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .cardheader .textheader {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .cardbody {
+    padding: 16px;
+  }
+  
+  .formgroup {
+    margin-bottom: 10px;
+  }
+  
+  .formgroup label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+  
+  .formgroup input[type="text"],
+  .formgroup input[type="email"],
+  .formgroup input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    margin-left: 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer,
+  
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+.oauthButton{
+  border: 2px  black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 79px;
+  /* border-radius: 30px */
+}
